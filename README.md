@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Video Calling App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern video calling application built with React, featuring real-time video communication and room management. This app uses ZEGOCLOUD for video call functionalities and allows users to start video calls with a randomly generated Room ID.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Generate Room ID**: Create a unique Room ID to start a video call.
+- **One-on-One Call**: Initiate a direct video call with another participant.
+- **Group Call**: Start a video call with multiple participants.
+- **Responsive Design**: Fully responsive UI for seamless use on various devices.
+- **Real-Time Communication**: Utilize ZEGOCLOUD for real-time video communication.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: JavaScript library for building user interfaces.
+- **JavaScript**: Programming language used for the application logic.
+- **CSS**: Styling language for designing the application layout.
+- **ZEGOCLOUD**: Real-time video communication service for video call functionalities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (>= 16.x)
+- npm or yarn
+- ZEGOCLOUD API Key (for video call functionality)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/your-username/video-calling-app.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+cd video-calling-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Create a .env file in the root directory and add your ZEGOCLOUD API key:
 
-## Learn More
+env
+Copy code
+ZEGOCLOUD_APP_ID=your_app_id
+ZEGOCLOUD_APP_CERTIFICATE=your_app_certificate
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy code
+npm start
 
-### Code Splitting
+# or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+yarn start
+The application will be available at http://localhost:3000.
 
-### Analyzing the Bundle Size
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Open the application in your browser.
+2. Click the "Generate" button to create a Room ID.
+3. Use the generated Room ID to start a One-on-One or Group Call.
 
-### Making a Progressive Web App
+### File Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- src/Components/HomePage.js: Main - component for the homepage, including room ID generation and call buttons.
 
-### Advanced Configuration
+- src/Components/Navbar.js: Navigation bar component displaying the app name and current time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- src/Components/Room.js: Component for handling video call sessions using ZEGOCLOUD.
 
-### Deployment
+### Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes and commit them (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a new Pull Request.
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions or inquiries, please contact me at [abhyudyasinghujala2002@gmail.com](mailto:abhyudyasinghujala2002@gmail.com).
