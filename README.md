@@ -88,4 +88,4 @@ The application will be available at http://localhost:3000.
 
 ## Contact
 
-For any questions or inquiries, please contact me at [abhyudyasinghujala2002@gmail.com](mailto:abhyudyasinghujala2002@gmail.com).
+For any questions or inquiries, please contact me at ``` bash [abhyudyasinghujala2002@gmail.com](mailto:abhyudyasinghujala2002@gmail.com). ```
