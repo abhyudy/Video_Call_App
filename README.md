@@ -30,7 +30,7 @@ A modern video calling application built with React, featuring real-time video c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/video-calling-app.git
+  [ git clone https://github.com/your-username/video-calling-app.git](https://github.com/abhyudy/Video_Call_App.git)
 
    ```
 
